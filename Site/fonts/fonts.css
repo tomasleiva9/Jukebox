@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'molengo';
+    src: url('molengo/molengo-regular-webfont.eot');
+    src: url('molengo/molengo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('molengo/molengo-regular-webfont.woff') format('woff'),
+         url('molengo/molengo-regular-webfont.ttf') format('truetype'),
+         url('molengo/molengo-regular-webfont.svg#molengoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oleo_script_swash_caps';
+    src: url('oleoscript/oleoscriptswashcaps-bold-webfont.eot');
+    src: url('oleoscript/oleoscriptswashcaps-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('oleoscript/oleoscriptswashcaps-bold-webfont.woff') format('woff'),
+         url('oleoscript/oleoscriptswashcaps-bold-webfont.ttf') format('truetype'),
+         url('oleoscript/oleoscriptswashcaps-bold-webfont.svg#oleo_script_swash_capsbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oleo_script_swash_caps';
+    src: url('oleoscript/oleoscriptswashcaps-regular-webfont.eot');
+    src: url('oleoscript/oleoscriptswashcaps-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('oleoscript/oleoscriptswashcaps-regular-webfont.woff') format('woff'),
+         url('oleoscript/oleoscriptswashcaps-regular-webfont.ttf') format('truetype'),
+         url('oleoscript/oleoscriptswashcaps-regular-webfont.svg#oleo_script_swash_capsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
