@@ -1,0 +1,229 @@
+/*ESTRUTURA*/
+
+body {
+    font-family: 'molengo', sans-serif;
+}
+
+.caixa {
+    padding: 60px 0;
+    min-height: 760px;
+    background-image: url(../img/bkg-xadrez.png);
+    border-bottom: 20px solid rgba(0,0,0,0.1);
+}
+
+.cont-01 {
+    padding-top: 180px;
+    min-height: 640px;
+    text-align: center;
+    background-color: #76ccac;
+}
+
+
+.cont-02 {
+    text-align: center;
+    background-color: #f7f6f9;
+}
+
+.cont-03 {
+    text-align: center;
+    background-color: #27717e;
+}
+
+.cont-04 {
+    background-color: #de4569;
+}
+
+.cont-05 {
+    background-color: #faffd2;
+}
+
+.tit-caixa {
+	font-family: 'oleo_script_swash_caps', sans-serif;
+    font-size: 70px;
+    text-shadow: 0 7px 0 rgba(0,0,0,0.1);
+    margin-bottom: 60px ;
+}
+
+.caixa h2 {	
+	font-family: 'molengo', sans-serif;
+	font-size: 26px;
+}
+
+.circ-icone {
+	padding: 40px 0;
+	border-radius: 350px;
+	background: #CCC;
+	width: 205px;
+	margin: auto;
+	border-bottom: 8px inset rgba(0,0,0,0.1);
+	box-shadow: 0 8px 0 rgba(0,0,0,0.1);
+    transition: all .2s;
+}
+
+.circ-icone img {
+	width: 120px;
+}
+
+.cont-botoes {
+	margin-top: 40px;	
+    margin-bottom: 100px;
+}
+
+
+
+/*AJUSTES BOOTSTRAP*/
+
+/*HEADER*/
+
+.container-header {
+    width: 100%;
+    height: 150px;
+    margin-top: 0;
+    background: url(../img/bkg-nav.png) repeat-x;
+}
+
+.logo {
+    position: relative;
+    padding-top: 30px;
+    text-shadow: 0 3px 0 rgba(0,0,0,0.1);
+    font-family: 'oleo_script_swash_caps', sans-serif;
+    font-size: 55px;
+    color: #faffd2;
+    transition: all .2s;
+}
+
+.logo:hover {
+	color: #FFF;
+}
+
+.logo span.quebra {
+    position: absolute;
+    top: 62px;
+    left: 33px;
+    font-size: 30px;
+}
+
+.menuNavegacao {
+    margin-top: 25px;
+    font-family: 'oleo_script_swash_caps', sans-serif;
+}
+
+.menuNavegacao ul li.active {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+    border-bottom: 3px inset rgba(0,0,0,0.1);
+}
+
+.menuNavegacao a {
+    text-shadow: 0 3px 0 rgba(0,0,0,0.1);
+    font-size: 24px;
+    color: #faffd2;
+}
+
+.menuNavegacao a:hover {
+    border-radius: 10px;
+    color: #FFF;
+    background: transparent !important;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+/*CONT-01*/
+
+.cont-TextInicial {
+    width: 68%;
+    margin: auto;
+    color: #4a7e6b;
+}
+
+.texto-inicial {
+    text-shadow: 0 7px 0 rgba(0,0,0,0.1);
+    font-family: 'oleo_script_swash_caps', sans-serif;
+    font-size: 90px;
+}
+
+.cont-TextInicial .lead {
+    margin-bottom: 40px;
+}
+
+
+/*CONT-02*/
+
+.cont-02 .tit-caixa {
+	color: #de4569;
+}
+
+.cont-02 h2 {
+	color: #2f8999;
+}
+
+.cont-02 p {
+	color:#848687;
+}
+
+.cont-02 .circ-icone {
+	background: #de4569 url(../img/bkg-xadrez.png);
+} 
+
+.cont-02 .btn {
+	background: #2f8999;
+	color: #faffd2;
+}
+
+/*CONT-03*/
+
+.cont-03 .tit-caixa {
+    color: #faffd2;
+}
+
+.cont-03 h2,
+.cont-03 p {
+    color:#FFF;
+}
+
+.cont-03 .circ-icone {
+    background: #faffd2;
+}
+
+.cont-03 .btn {
+    background: #9cc484;
+    color: #27717e;
+} 
+
+
+
+/*BOTÕES*/
+
+.btn {
+    width: 45%;
+    padding: 15px;
+    border: 0;
+    border-bottom: 6px inset rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-family: 'oleo_script_swash_caps', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.1);
+    transition: all .2s;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:visited {
+    border-top: 5px inset rgba(0,0,0,0.1);
+    border-bottom: 0;
+    background: #de4569;
+    color: #faffd2;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+}
+
+.btn-inicio {
+    color: #5f9c86;
+    background: #faffd2;
+}
+
+.bt-header-mobile {
+	font-size: 40px;
+	color: #faffd2;
+	text-shadow: 0 3px 0 rgba(0,0,0,0.1);
+}

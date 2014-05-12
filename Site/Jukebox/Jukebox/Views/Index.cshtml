@@ -1,0 +1,254 @@
+﻿@{
+    ViewBag.Title = "index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <title>Jukebox - Art &amp; Scrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/Frameworks/bootstrap-3.0.3/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="~/Content/Frameworks/bootstrap-3.0.3/docs-assets/js/ie8-responsive-file-warning.js"></script>
+    <![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- Estilos da página -->
+    <link href="~/Content/Styles/carousel.css" rel="stylesheet">
+    <link href="~/Content/Styles/animate.css" rel="stylesheet">
+    <link href="~/Content/Styles/pagina.css" rel="stylesheet">
+    <!-- WebFonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="~/Content/Fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER TESTE VS -->
+    <div class="navbar-wrapper container-header">
+        <div class="container">
+            <div class="navbar navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle bt-header-mobile" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="fa fa-bars"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="#">
+                            Jukebox
+                            <span class="quebra">art &amp; scrap</span>
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse menuNavegacao">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="active">
+                                <a id="bt-inicio" name="#inicio">início</a>
+                            </li>
+                            <li>
+                                <a id="bt-produtos" name="#produtos">produtos</a>
+                            </li>
+                            <li>
+                                <a id="bt-servicos" name="#servicos">serviços</a>
+                            </li>
+                            <li>
+                                <a id="bt-sobre" name="#sobre">sobre</a>
+                            </li>
+                            <li>
+                                <a id="bt-contato" name="#contato">contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTEÚDO -->
+    <div class="">
+        <!-- início -->
+        <div class="row caixa cont-01">
+            <div class="container">
+                <div class="cont-TextInicial">
+                    <h1 id="texto-inicial" class="texto-inicial animated pulse" animacao="pulse">
+                        Bem vindo ao Jukebox
+                    </h1>
+                    <p class="lead">
+                        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna.
+                    </p>
+                    <div>
+                        <button id="bt-conheca" class="btn btn-primary btn-lg btn-inicio scrollpage" name="#servicos">conheça nossos serviços</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- produtos -->
+        <div id="produtos" class="row caixa cont-02">
+            <div class="container">
+                <h1 class="tit-caixa">
+                    Produtos
+                </h1>
+                <div class="col-lg-4">
+                    <div id="circ-ic-hearth" class="circ-icone" animacao="swing">
+                        <img id="ic-hearth" class="icones-circ" src="img/icon-hearth.png" alt="" animacao="flipInY">
+                    </div>
+                    <h2>
+                        Artigos para bebês<br>
+                        e maternidade
+                    </h2>
+                    <p>
+                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p class="cont-botoes">
+                        <button class="btn btn-primary" role="button">ver imagens</button>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <div id="circ-ic-shop" class="circ-icone" animacao="swing">
+                        <img id="ic-shop" class="icones-circ" src="img/icon-shop.png" alt="" animacao="flipInY">
+                    </div>
+                    <h2>
+                        Bolos, doces e <br>
+                        comidinhas
+                    </h2>
+                    <p>
+                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p class="cont-botoes">
+                        <button class="btn btn-primary" role="button">ver imagens</button>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <div id="circ-ic-gift" class="circ-icone" animacao="swing">
+                        <img id="ic-gift" class="icones-circ" src="img/icon-gift.png" alt="" animacao="flipInY">
+                    </div>
+                    <h2>
+                        Lembrancinhas e <br>
+                        artigos personalizados
+                    </h2>
+                    <p>
+                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p class="cont-botoes">
+                        <button class="btn btn-primary" role="button">ver imagens</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- serviços -->
+        <div id="servicos" class="row caixa cont-03">
+            <div class="container">
+                <h1 class="tit-caixa">
+                    Serviços
+                </h1>
+                <div class="col-lg-4">
+                    <div id="circ-ic-magic" class="circ-icone" animacao="pulse">
+                        <img id="ic-magic" class="icones-circ" src="img/icon-magic.png" alt="" animacao="rotateIn">
+                    </div>
+                    <h2>
+                        Decorações de <br>
+                        festas e eventos
+                    </h2>
+                    <p>
+                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p class="cont-botoes">
+                        <button class="btn btn-primary" role="button">ver imagens</button>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <div id="circ-ic-pic" class="circ-icone" animacao="pulse">
+                        <img id="ic-pic" class="icones-circ" src="img/icon-pic.png" alt="" animacao="rotateIn">
+                    </div>
+                    <h2>
+                        Fotografias para <br>
+                        grandes momentos
+                    </h2>
+                    <p>
+                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p class="cont-botoes">
+                        <button class="btn btn-primary" role="button">ver imagens</button>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <div id="circ-ic-ribbon" class="circ-icone" animacao="pulse">
+                        <img id="ic-ribbon" class="icones-circ" src="img/icon-ribbon.png" alt="" animacao="rotateIn">
+                    </div>
+                    <h2>
+                        Aluguel de artigos <br>
+                        para festas
+                    </h2>
+                    <p>
+                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p class="cont-botoes">
+                        <button class="btn btn-primary" role="button">ver imagens</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- sobre -->
+        <div id="sobre" class="row caixa cont-04">
+            <div class="container">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">
+                        First featurette heading.
+                        <span class="text-muted">It'll blow your mind.</span>
+                    </h2>
+                    <p class="lead">
+                        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+            </div>
+        </div>
+        <!--contato -->
+        <div id="contato" class="row caixa cont-05">
+            <div class="container">
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">
+                        Oh yeah, it's that good.
+                        <span class="text-muted">See for yourself.</span>
+                    </h2>
+                    <p class="lead">
+                        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>
+                &copy; 2013 Company, Inc. &middot;
+                <a href="#">Privacy</a>
+                &middot;
+                <a href="#">Terms</a>
+            </p>
+        </footer>
+    </div>
+    <!-- /.container -->
+    <!-- Scripts da página
+      ================================================== -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="~/Content/Frameworks/bootstrap-3.0.3/dist/js/bootstrap.min.js"></script>
+    <script src="~/Content/Frameworks/bootstrap-3.0.3/docs-assets/js/holder.js"></script>
+    <script src="~/Content/Scripts/jquery.easing.1.3.js"></script>
+    <script src="~/Content/Scripts/script.js"></script>
+</body>
+</html>
